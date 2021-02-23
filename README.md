@@ -1,8 +1,8 @@
 # Alfven-Wave-Modes
 
 The goal of this project was to demonstrate that a new cylindrical coordinate approach is justified
-for the simulation of Alfven wave modes in a tokamak plasma. In order to approach the prob-
-lem, the linear force operator was shown to follow from the equations of ideal MHD. It was
+for the simulation of Alfven wave modes in a tokamak plasma. In order to approach the problem, 
+the linear force operator was shown to follow from the equations of ideal MHD. It was
 then shown that the linear force operator could be solved via a finite difference approximation
 in which the expression is considered as a sequence of computational matrix operations. By
 calling a library into the Python programming language, the ‘discretised’ expression could then

@@ -1,6 +1,6 @@
 # Alfven-Wave-Modes
 
-The goal of this project is to demonstrate that a new cylindrical coordinate approach is justified
+The goal of this project was to demonstrate that a new cylindrical coordinate approach is justified
 for the simulation of Alfven wave modes in a tokamak plasma. In order to approach the prob-
 lem, the linear force operator was shown to follow from the equations of ideal MHD. It was
 then shown that the linear force operator could be solved via a finite difference approximation
@@ -11,3 +11,5 @@ problems.
 With a working eigenmode code in place, three separate cases were studied to investigate
 whether this new approach was suitable: the cases of a homogeneous plasma, an inhomogeneous
 plasma and an inhomogeneous plasma with a supplied current.
+
+This project is primarily a PoC to be extended to C++/Fortran for more complex boundary configurations.
